@@ -10,7 +10,12 @@ html, body{
     display:inline-block;
     margin:10px;
 
-    
+    @media only screen and (max-widdth:600px) {
+      body{
+        background-color: pink;
+      }
+    }
+
     }
 
     #welcome-section{
